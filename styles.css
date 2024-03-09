@@ -1,0 +1,122 @@
+/* style.css */
+* {
+	font-family: "Georgia", serif; /* Corrected property name */
+	color: #A0522D; /* Sienna - Rich Earthy Brown */
+	text-align: center;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	border: groove;
+}
+
+nav {
+	display: flex;
+	background-color: #FFA07A; /* Light Salmon */
+	justify-content: space-around;
+	padding: 10px;
+	margin: 10px;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+	margin: 10px;
+	justify-content: space-around;
+}
+
+.list-item {
+	text-align: justify;
+	font-size: 18px;
+	color: #734F96; /* Dark Lavender */
+	margin-bottom: 10px; /* Adds space between list items for better readability */
+	display: list-item;
+}
+
+dl {
+    	display: flex;
+    	flex-wrap: wrap;
+    	gap: 20px;
+    	text-align: justify;
+	padding: 5px;
+	margin: 10px;
+}
+
+dt {
+    	flex: 1 0 30%; /* Adjust width of dt element */
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+dd {
+    	flex: 1 0 70%; /* Adjust width of dd element */
+    	font-size: 18px;
+    	margin-bottom: 10px;
+	text-align: justify; 
+}
+
+section {
+	overflow: auto;
+	height: 100%; /* Added % to define height properly */
+}
+
+main {
+	background-color: #F5F5F5; /* Pastel Gray */
+	padding: 10px;
+	margin: 10px;
+}
+
+article {
+	background-color: #F5F5F5; /* Pastel Gray */
+	padding: 10px;
+	margin: 10px;
+	width: 280px;
+	float: left;
+}
+
+footer {
+	background-color: #F5F5F5; /* Pastel Gray */
+	padding: 10px;
+	margin: 10px;
+}
+nav a{
+	margin-right: 15px;
+	text-decoration: none;
+	color: #D64550;	/*rich carmime*/
+}
+
+h1, h2 {
+	color: #A52A2A; /* Auburn */
+	font-family: "Times New Roman", serif;
+	margin-top: 0;
+}
+
+p {
+	font-size: 18px;
+	color: #A0522D; /* Sienna - Rich Earthy Brown */
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 20px;
+	color: #C71585; /* Deep Magenta */
+}
+
+.italic {
+	font-style: italic;
+	color: #DAA520; /* GoldenRod Yellow */
+}
+
+/* Unique layout for one page - travel.html */
+.unique-layout {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.unique-layout > div {
+	flex: 1 1 calc(50% - 5px);
+	margin-bottom: 10px;
+}
